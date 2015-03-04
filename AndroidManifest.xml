@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.view.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LauncherActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Flat Button"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.view.demo.processbutton.ProcessButtonActivity"
+            android:label="Process Button"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.view.demo.processbutton.MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.example.view.demo.processbutton.SignInActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.example.view.demo.processbutton.UploadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.example.view.demo.processbutton.StateSampleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.ExampleListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.PropertiesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.LeftAndRightActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.AttachExample"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomScaleAnimation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomZoomAnimation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomRotateAnimation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.anim.CustomSlideAnimation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.SlidingTitleBar"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.SlidingContent"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.ViewPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.fragments.FragmentChangeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.jeremyfeinstein.slidingmenu.example.fragments.ResponsiveUIActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".fragments.BirdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" />
+        <activity
+            android:name="com.crittercism.NotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.example.view.demo.floatingaction.FloatingAction"
+            android:label="Floating Action Button"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
